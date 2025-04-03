@@ -112,6 +112,7 @@ fn ask_coords(nbr: i8) -> Point {
 }
 
 fn main() {
+    println!("Voici le programme créé par le groupe de Benoît VAN BLITZ, Victor ALONZO, Michael AVAGYAN et Phénélon N'GOUELET vous permétant de définir la nature d'un quadrilatère grâce à ses quatres points.");
     let a = ask_coords(1);
     let b = ask_coords(2);
     let c = ask_coords(3);
